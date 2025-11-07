@@ -11,5 +11,13 @@
         "ms-python.debugpy"
       ]
     }
+  },
+  "features": {
+    "code-generation": {
+      "enabled": true
+    }
+  },
+  "containerEnv": {
+    "ENABLE_CLAUDE_SONNET_3_5": "true"
   }
 }
